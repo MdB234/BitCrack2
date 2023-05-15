@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compilerArgs": [
+        "-nostdinc++",
+        "#include \"cudaUtil.h\""
+      ],
+      "cStandard": "c17",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cppStandard": "c++23",
+      "compilerPath": "gcc"
+    }
+  ],
+  "version": 4
+}
